@@ -1,0 +1,36 @@
+{
+  "name": "satania-electron",
+  "version": "1.0.0",
+  "description": "Satania best girl",
+  "main": "main.js",
+  "dependencies": {
+    "electron-builder-squirrel-windows": "^20.15.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "file-base64": "^1.0.0",
+    "konami": "^1.6.0",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "electron": "^2.0.2",
+    "electron-builder": "^20.15.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "electron-builder --x64"
+  },
+  "build": {
+    "appId": "Satania",
+    "productName": "Satania",
+    "squirrelWindows": {
+      "iconUrl": "http://files.treelar.com/Electron%20Assets/Satania/icon.ico"
+    },
+    "win": {
+      "target": [
+        "squirrel"
+      ],
+      "icon": "favicon.ico"
+    }
+  },
+  "author": "Tyler Rothleder",
+  "license": "ISC"
+}

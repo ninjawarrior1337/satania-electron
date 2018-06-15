@@ -1,0 +1,35 @@
+maindiv{
+    width: 100vw;
+}
+
+#satania{
+    max-width: 30vw;
+    float: left;
+}
+
+#satania img{
+    width: 100%;
+}
+
+#beg
+{
+    font-size: 5vmin;
+}
+
+#creditcardinfo
+{
+    margin-left: 10px;
+    float: left;
+    width: 64vw;
+}
+
+#thxdiv
+{
+
+}
+
+#thx
+{
+    margin-left: 45%;
+    text-align: center;
+}
