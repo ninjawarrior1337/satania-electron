@@ -5,10 +5,21 @@ maindiv{
 #satania{
     max-width: 30vw;
     float: left;
+    margin-top: 30vh;
+    display: flex;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
 }
 
 #satania img{
     width: 100%;
+    
 }
 
 #beg
@@ -20,7 +31,11 @@ maindiv{
 {
     margin-left: 10px;
     float: left;
-    width: 64vw;
+    width: 64%;
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    transform: translateY(-50%);
 }
 
 #thxdiv
