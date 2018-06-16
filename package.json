@@ -16,7 +16,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dist": "electron-builder --x64"
+    "pack": "electron-builder --x64",
+    "release": "electron-builder"
   },
   "build": {
     "appId": "Satania",
@@ -28,7 +29,11 @@
       "target": [
         "squirrel"
       ],
-      "icon": "favicon.ico"
+      "icon": "favicon.ico",
+      "publish":
+      [
+        "github"
+      ]
     }
   },
   "author": "Tyler Rothleder",
