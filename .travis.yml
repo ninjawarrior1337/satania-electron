@@ -5,10 +5,12 @@ matrix:
 sudo: required
 
 language: node_js
+node_js:
+  - "lts/*"
 
-install:
-  - npm install -g npm@latest
-  - npm install
+#install:
+#  - npm install -g npm@latest
+#  - npm install
 
 script:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then npm run release -- --linux; fi
