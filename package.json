@@ -6,6 +6,7 @@
   "dependencies": {
     "electron-builder-squirrel-windows": "^20.15.0",
     "electron-squirrel-startup": "^1.0.0",
+    "electron-updater": "^2.21.10",
     "file-base64": "^1.0.0",
     "konami": "^1.6.0",
     "request": "^2.87.0"
@@ -30,8 +31,7 @@
         "squirrel"
       ],
       "icon": "favicon.ico",
-      "publish":
-      [
+      "publish": [
         "github"
       ]
     }
