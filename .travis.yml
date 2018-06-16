@@ -6,12 +6,13 @@ sudo: required
 
 language: node_js
 
-cache:
-  directories:
-    - node_modules
-
 install:
+  - npm cache verify
   - npm install
 
 script:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then npm run release -- --linux; fi
+
+cache:
+  directories:
+    - node_modules
