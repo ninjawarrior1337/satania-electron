@@ -30,7 +30,6 @@ function createWindow() {
 
     win.once('ready-to-show', () => {
         win.show();
-        win.openDevTools();
     });
 
     // and load the index.html of the app.
