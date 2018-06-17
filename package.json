@@ -1,6 +1,6 @@
 {
   "name": "satania-electron",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Satania best girl",
   "main": "main.js",
   "dependencies": {
